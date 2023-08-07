@@ -5,28 +5,27 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/awmansingh/Final-Project-Related-Assignment/main)
 
 ## **Introduction**
-The topic of importance I choose to explore is
+This repository is based on the following project which was constructed using the "Sexual Orientation and Gender-Identity (SOGI) Laws That Support and/or Limit International Development" dataset created by Thomas S. Serwatka from the University of North Florida's Digital Commons. This dataset offers a plethora of information about 185 countries' sexual orientation and gender identity legal index (SOGI-LI). The index is calculated based on variables identified in the dataset, such as examining the legality of same-sex sexual activity in a country, marriage & civil union, serving in the military, and gender ID markers, to name a few. The higher the score for the SOGI-LI index, the more rights and personal freedoms a person is guaranteed, and people are less bound by legal ramifications to freely and safely express their sexual orientation and gender identity. The SOGI-LI index aims to assess if each country's laws assist international development and allow people of different gender identities to move freely and safely without oppressive legal restrictions – that is, as equal members of society. This project centers on the worldwide examination of LGBTQ+ rights and its relationship to related human rights topics, such as religious freedoms and democracy. The primary objective of this analysis is to ascertain the influence of a nation's democratic representation and levels of religiosity on the broader scope of sexual and gender freedoms within the LGBTQ+ community.
+
+The broader themes of this project are surrounding sexual orientation and gender identity (SOGI), quality of life, and other personal freedoms. The impact of sexual and gender freedoms on the quality of life and other personal freedoms refers to how the recognition and protection of an individual's sexuality and gender orientation directly influence their general well-being, social inclusion, mental health, and life satisfaction. I wish to explore this dataset because it encompasses issues surrounding legal rights, social acceptance, and freedom from discrimination and violence based on sexuality and gender orientation. Individuals who can exist and move in this world safely while expressing their sexual orientation and gender identity will have better life satifaction. Freedom of sexual and gender expression can positively affect mental, physical, and social health. By examining variables like a country's democracy and religiosity, we can explore how these complex influences determine personal freedoms and directly influence the presence of SOGILI scores. Prior to conducting data analysis, I hypothesize that nations characterized by greater levels of democracy will exhibit a heightened legality of sexual orientation and gender expression in contrast to countries with lower democratic indicators. Finally, I hypothesize that elevated levels of religiosity within a country correspond to decreased sexual and gender freedoms than countries with a less pronounced religious influence.
 
 ### **Research Question(s):**
-
-
-## **Data & Methods**
-### Brief Data Summary
+1. How is the legality of sexual orientation and gender identity expression affected by a country's democracy level?
+2. How does increased sexual and gender freedoms (SOGI) compare to levels of religiosity?
 
 
 ### **Description of Methods**
-
-
-## **Results**
-
+- The data was published in 2020
+- The dataset was based around a sexual orientation and gender identity legal index that was developed for 185 countries
+- Variables examined in the dataset include: SOGI-LI, Religiosity, legality of sam-sex sexual-activity, DEMOC., and Happiness
+- Dataset used: Cleaned_SOGILI_Data.csv accessed in this repository
+- The data analysis was conducted using the pandas and matplotlib packages in Python
 
 
 ## **Analysis**
 
-
+I analyzed the variables democracy and religiosity in tandem with SOGI-LI freedoms and was able to find that, in line with my first hypothesis, that sexual orientation and gender identity freedoms raise significantly higher if democracy levels for a country are high, as well. Next, I found that high levels of religiosity generally display lower SOGI-LI scores than countries with lower levels of religiosity. However, I found Thailand as an outlier which depicted higher SOGI-LI freedoms with high levels of religiosity.
 
 ## **Conclusion**
 
-
-
-## **Limitations to Consider for Future Studies**
+After using Python's matplotlib, numpy, and pandas libraries for analysis, this project was meant to study the impact of religiosity and democracy levels on sexual orientation and gender freedoms on a global scale. I aim to analyze the relationship between high levels of religiosity and democracy on sexual orientation and gender identity levels – that is, if the two are positively or negatively correlated. These findings are helpful because they help unveil the complexities of the relationships between groups of religiosity and levels of democracy to a country's SOGI score. For democracy levels, I was able to ascertain that higher rates of sexual orientation and gender identity freedoms positively correlate to more democratic nations. This finding aligns with the fact that democratic societies are generally founded on human rights principles, pushing values that encourage the protection of rights for all individuals, regardless of their sexual orientation or gender identity. However, it is essential to note that although a general positive correlation exists between democracy and high rates of SOGI freedoms, this relationship is complex and may not always be accurate. For example, some democratic nations may have significant obstacles in ensuring safety and protection for LGBTQ+ individuals, while non-democratic nations are more progressive. Moreover, it is critical to consider a country's historical, social, and cultural factors comprising its sexual orientation and gender identity (SOGI) index score. For comparing religiosity with increased SOGI-LI scores, I found that higher rates of religiosity typically display lower SOGI-LI scores from country to country. However, I noticed that Thailand showed a higher SOGI-LI score than other countries with higher rates of religiosity, underscoring how a country's attitude to SOGI freedoms, regardless of high rates of religiosity, could be influenced by inclusive cultural practices and historical factors that are more accepting of LGBTQ+ people. It is essential to see these nuances in data because countries vary widely in their acceptance of sexual orientation and gender identity freedoms.
